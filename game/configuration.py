@@ -1,0 +1,1 @@
+player_health_point = 3
