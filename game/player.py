@@ -1,10 +1,10 @@
-from configuration import player_health_point
+from game.configuration import player_health_point
 
 
 class Player:
 
     def __init__(self, player_id):
-        self.id = id
+        self.id = player_id
         self.player_health_point = player_health_point
         self.cards = []
 

@@ -14,7 +14,7 @@ class Spell:
         pass
 
     def __repr__(self):
-        return 'TO BE IMPLEMENTED'
+        return str(self.origin) + ' -> ' + self.type + ' -> ' + str(self.target)
 
     def __str__(self):
-        return 'TO BE IMPLEMENTED'
+        return str(self.origin) + ' -> ' + self.type + ' -> ' + str(self.target)
